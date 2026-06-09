@@ -1,38 +1,34 @@
-import { focusAreas } from "@/lib/siteContent";
-
 export function About() {
   return (
-    <section id="about" className="px-5 py-16">
-      <div className="mx-auto max-w-6xl">
-        <div className="max-w-3xl">
+    <section id="about" className="px-5 py-24">
+      <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+        <div>
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-cougar-red">
-            About
+            Who We Are
           </p>
-          <h2 className="mt-3 text-3xl font-black text-slate-950 sm:text-4xl">
+          <h2 className="mt-4 text-3xl font-black leading-tight text-slate-950 sm:text-5xl">
             A welcoming home for Muslim students in engineering.
           </h2>
-          <p className="mt-5 text-lg leading-8 text-slate-700">
-            The Muslim Engineering Student Society connects University of
-            Houston students who are pursuing engineering and technology fields.
-            MESS is designed to help members feel supported academically,
-            spiritually, socially, and professionally.
-          </p>
         </div>
 
-        <div className="mt-10 grid gap-5 md:grid-cols-3">
-          {focusAreas.map((area) => (
-            <article
-              key={area.title}
-              className="rounded border border-red-100 bg-white p-6 shadow-sm"
-            >
-              <h3 className="text-xl font-bold text-slate-950">
-                {area.title}
-              </h3>
-              <p className="mt-3 leading-7 text-slate-600">
-                {area.description}
-              </p>
-            </article>
-          ))}
+        <div className="technical-frame rounded border border-red-100 bg-white p-7 shadow-soft">
+          <p className="text-lg leading-8 text-slate-700">
+            The Muslim Engineering Student Society connects University of
+            Houston students pursuing engineering and technology fields. MESS
+            exists for students who want serious academic growth, professional
+            preparation, and a community where Muslim identity is understood and
+            celebrated.
+          </p>
+          <div className="mt-6 grid gap-3 sm:grid-cols-3">
+            {["Faith", "Engineering", "Service"].map((value) => (
+              <div
+                key={value}
+                className="rounded border border-slate-200 bg-[#FFFDF9] px-4 py-3 text-sm font-black uppercase tracking-[0.14em] text-slate-800"
+              >
+                {value}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

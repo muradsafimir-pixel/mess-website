@@ -1,52 +1,99 @@
 export const navItems = [
-  { label: "About", href: "#about" },
+  { label: "Who We Are", href: "#about" },
+  { label: "What We Offer", href: "#offer" },
   { label: "Team", href: "#team" },
   { label: "Join", href: "#join" },
   { label: "Contact", href: "#contact" },
 ];
 
-export const focusAreas = [
+export const stats = [
+  { value: "40+", label: "Prospective members" },
+  { value: "6", label: "Engineering disciplines" },
+  { value: "12+", label: "Events planned yearly" },
+  { value: "1", label: "Unified student community" },
+];
+
+export const whatWeOffer = [
+  {
+    title: "Mentorship",
+    description:
+      "Peer guidance from upperclassmen who understand UH engineering courses, campus life, and career pressure.",
+  },
+  {
+    title: "Professional Development",
+    description:
+      "Resume reviews, speaker events, sponsor conversations, and internship-focused preparation.",
+  },
+  {
+    title: "Study Support",
+    description:
+      "Focused study sessions and exam preparation built around the realities of engineering coursework.",
+  },
+  {
+    title: "Networking",
+    description:
+      "Connections with classmates, alumni, faculty, and industry partners across engineering disciplines.",
+  },
   {
     title: "Community",
     description:
-      "Build meaningful connections among Muslim students across engineering and technology majors.",
-  },
-  {
-    title: "Professional Growth",
-    description:
-      "Host workshops, speaker panels, resume reviews, and networking opportunities.",
+      "A welcoming space for Muslim engineering students to build friendships rooted in shared values.",
   },
   {
     title: "Service",
     description:
-      "Create opportunities to serve the University of Houston and the broader community.",
+      "Service projects and campus initiatives that turn technical talent into meaningful impact.",
   },
 ];
 
 export const officers = [
   {
-    // TODO: Replace officer name.
-    name: "Officer Name",
-    // TODO: Replace officer role.
+    name: "Adyan Qureshi",
     role: "President",
+    focus: "Vision, faculty relationships, and organization strategy",
+    linkedin: "#",
   },
   {
-    // TODO: Replace officer name.
-    name: "Officer Name",
-    // TODO: Replace officer role.
+    name: "Fatima Moeen",
     role: "Vice President",
+    focus: "Operations, member experience, and event coordination",
+    linkedin: "#",
   },
   {
-    // TODO: Replace officer name.
-    name: "Officer Name",
-    // TODO: Replace officer role.
-    role: "Treasurer",
+    name: "Raiyan Khan",
+    role: "Director of Operations",
+    focus: "Planning, logistics, and organization systems",
+    linkedin: "#",
   },
   {
-    // TODO: Replace officer name.
-    name: "Officer Name",
-    // TODO: Replace officer role.
-    role: "Events Chair",
+    name: "Mohammed Raiyan",
+    role: "Director of Professional Development",
+    focus: "Career programming, workshops, and sponsor-facing opportunities",
+    linkedin: "#",
+  },
+  {
+    name: "Khidr Siddiqui",
+    role: "Director of Projects and Experience Building",
+    focus: "Technical projects, student experience, and hands-on learning",
+    linkedin: "#",
+  },
+  {
+    name: "Shahzain Rana",
+    role: "Director of Marketing",
+    focus: "Brand presence, social media, and campus visibility",
+    linkedin: "#",
+  },
+  {
+    name: "Omar Awad",
+    role: "Director of Internal Relations",
+    focus: "Member engagement, culture, and internal communication",
+    linkedin: "#",
+  },
+  {
+    name: "Murad Mir",
+    role: "Director of External Relations",
+    focus: "Partnerships, outreach, and external communication",
+    linkedin: "#",
   },
 ];
 
