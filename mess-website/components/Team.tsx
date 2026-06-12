@@ -39,6 +39,8 @@ export function Team() {
                 </div>
                 <a
                   href={officer.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="rounded border border-white/15 px-3 py-1.5 text-xs font-bold text-slate-300 transition hover:border-red-300 hover:text-white"
                 >
                   LinkedIn
