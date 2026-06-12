@@ -99,4 +99,4 @@ Keep these easy to update:
 
 The official organization logo is stored at:
 
-`mess-website/public/mess-logo.png`
+`public/mess-logo.png`
