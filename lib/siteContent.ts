@@ -101,7 +101,7 @@ export const links = {
   // TODO: Replace sign-up link.
   signup: "#",
   // TODO: Replace email.
-  email: "mess@uh.edu",
+  email: "info@messuh.org",
   // TODO: Replace Instagram.
   instagram: "#",
   // TODO: Replace LinkedIn.
