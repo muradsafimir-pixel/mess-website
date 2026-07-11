@@ -84,12 +84,6 @@ export const officers = [
     linkedin: "https://www.linkedin.com/in/khidrs",
   },
   {
-    name: "Shahzain Rana",
-    role: "Director of Marketing",
-    focus: "Brand presence, social media, and campus visibility",
-    linkedin: "https://www.linkedin.com/in/shahzain-rana-5583a4260",
-  },
-  {
     name: "Omar Awad",
     role: "Director of Internal Relations",
     focus: "Member engagement, culture, and internal communication",
@@ -100,6 +94,12 @@ export const officers = [
     role: "Director of External Relations",
     focus: "Partnerships, outreach, and external communication",
     linkedin: "https://www.linkedin.com/in/murad-mir",
+  },
+  {
+    name: "Shahzain Rana",
+    role: "Director of Marketing",
+    focus: "Brand presence, social media, and campus visibility",
+    linkedin: "https://www.linkedin.com/in/shahzain-rana-5583a4260",
   },
 ];
 
