@@ -66,6 +66,12 @@ export const officers = [
     linkedin: "https://www.linkedin.com/in/rakhan8",
   },
   {
+    name: "Reda Khan",
+    role: "Director of Finance",
+    focus: "Budget planning, financial records, and sponsorship support",
+    linkedin: "https://www.linkedin.com/in/redakhan/",
+  },
+  {
     name: "Mohammed Raiyan",
     role: "Director of Professional Development",
     focus: "Career programming, workshops, and sponsor-facing opportunities",
@@ -73,7 +79,7 @@ export const officers = [
   },
   {
     name: "Khidr Siddiqui",
-    role: "Director of Projects and Experience Building",
+    role: "Director of Technical Development",
     focus: "Technical projects, student experience, and hands-on learning",
     linkedin: "https://www.linkedin.com/in/khidrs",
   },
@@ -103,9 +109,9 @@ export const links = {
   // TODO: Replace email.
   email: "info@messuh.org",
   // TODO: Replace Instagram.
-  instagram: "#",
+  instagram: "https://www.instagram.com/mess.uhouston/",
   // TODO: Replace LinkedIn.
-  linkedin: "#",
+  linkedin: "https://www.linkedin.com/company/mess-uh/",
   // TODO: Replace GroupMe/Discord link.
   community: "#",
 };
