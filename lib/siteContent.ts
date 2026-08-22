@@ -104,14 +104,14 @@ export const officers = [
 ];
 
 export const links = {
-  // TODO: Replace sign-up link.
-  signup: "#",
+  // TODO: Replace WhatsApp join link.
+  signup: "https://chat.whatsapp.com/Btio5OiipEtKvT24befP7H",
   // TODO: Replace email.
   email: "info@messuh.org",
   // TODO: Replace Instagram.
   instagram: "https://www.instagram.com/mess.uhouston/",
   // TODO: Replace LinkedIn.
   linkedin: "https://www.linkedin.com/company/mess-uh/",
-  // TODO: Replace GroupMe/Discord link.
+  // TODO: Replace community chat link if a separate one is added later.
   community: "#",
 };

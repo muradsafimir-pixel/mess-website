@@ -3,7 +3,6 @@ import { links } from "@/lib/siteContent";
 const socialLinks = [
   { label: "Instagram", href: links.instagram },
   { label: "LinkedIn", href: links.linkedin },
-  { label: "GroupMe / Discord", href: links.community },
 ];
 
 export function Contact() {
