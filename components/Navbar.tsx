@@ -35,12 +35,15 @@ export function Navbar() {
           ))}
         </div>
 
-        <a
-          href="#join"
-          className="rounded bg-slate-950 px-4 py-2 text-sm font-bold text-white shadow-sm transition hover:bg-cougar-red"
-        >
-          Join Us
-        </a>
+        <div className="flex items-center gap-3">
+          <a href="#events" className="rounded px-2 py-3 text-sm font-bold text-cougar-red hover:text-cougar-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-cougar-red lg:hidden">Events</a>
+          <a
+            href="#join"
+            className="rounded bg-slate-950 px-4 py-2 text-sm font-bold text-white shadow-sm transition hover:bg-cougar-red"
+          >
+            Join Us
+          </a>
+        </div>
       </div>
     </nav>
   );

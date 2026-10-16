@@ -1,6 +1,7 @@
 export const navItems = [
   { label: "Who We Are", href: "#about" },
   { label: "What We Offer", href: "#offer" },
+  { label: "Events", href: "#events" },
   { label: "Team", href: "#team" },
   { label: "Join", href: "#join" },
   { label: "Contact", href: "#contact" },

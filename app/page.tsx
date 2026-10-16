@@ -1,6 +1,7 @@
 import { About } from "@/components/About";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import { Events } from "@/components/Events";
 import { Hero } from "@/components/Hero";
 import { Join } from "@/components/Join";
 import { Navbar } from "@/components/Navbar";
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <About />
       <WhatWeOffer />
+      <Events />
       <Stats />
       <Team />
       <Join />
