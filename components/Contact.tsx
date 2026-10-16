@@ -3,6 +3,7 @@ import { links } from "@/lib/siteContent";
 const socialLinks = [
   { label: "Instagram", href: links.instagram },
   { label: "LinkedIn", href: links.linkedin },
+  { label: "Discord", href: links.discord },
 ];
 
 export function Contact() {

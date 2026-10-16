@@ -112,6 +112,7 @@ export const links = {
   instagram: "https://www.instagram.com/mess.uhouston/",
   // TODO: Replace LinkedIn.
   linkedin: "https://www.linkedin.com/company/mess-uh/",
+  discord: "https://discord.gg/n2NzUexaRd",
   // TODO: Replace community chat link if a separate one is added later.
   community: "#",
 };
